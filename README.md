@@ -1,2 +1,2 @@
 # DATABASE PROJECT
-First project of the database course
+First project of database course
