@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VidaSegura" id="75BD1F89-D157-DFBC-F7C7-433149602FBC" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 04:47:33 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75BD1F89-D157-DFBC-F7C7-433149602FBC</designId>
+</OSDM_Design>
