@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Guatemala" id="A30D3517-26F1-F128-9FD2-0108F8242CDD" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 20:27:31 UTC</createdTime>
+<ownerDesignName>Guatemala</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A30D3517-26F1-F128-9FD2-0108F8242CDD</designId>
+</OSDM_Design>
