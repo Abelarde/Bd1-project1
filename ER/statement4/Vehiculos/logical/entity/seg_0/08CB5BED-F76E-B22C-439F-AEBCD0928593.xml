@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08CB5BED-F76E-B22C-439F-AEBCD0928593" name="Color">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:56:31 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idColor" id="E0169A57-A4A7-5C09-B1FD-1B5AF30AC246">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:56:36 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="ADA04E6D-1145-1FA0-9793-B6A8F736E5CE">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:56:41 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A559DB02-8797-B535-0D46-D7107F1093B3" name="Color PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:56:40 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0169A57-A4A7-5C09-B1FD-1B5AF30AC246</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

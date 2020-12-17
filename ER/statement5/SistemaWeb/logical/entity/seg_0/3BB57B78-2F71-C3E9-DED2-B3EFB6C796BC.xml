@@ -52,6 +52,62 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idEmpleado" id="CCCC77AB-14CB-0EDE-3AD1-0E4380E8F170">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:17:43 UTC</createdTime>
+<generatorID>8E4CB287-3962-5668-750C-A3728558614B</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>2F515FF3-415C-B221-116D-4658FA1319F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBodega" id="3482BC61-7C40-3E3F-24A6-8965ED20AB33">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:20:04 UTC</createdTime>
+<generatorID>3358BA28-2B8F-777B-F7F8-B1DC405FAC5E</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>FD35D5CE-2A08-7543-500A-F455F77DBB5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="BE1E09FB-006B-D1A3-DC3C-D8680A194CAB">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:25:15 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMarcaProducto" id="3BE588F6-0065-2DB8-1C7E-0C188CAC3B39">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:59:53 UTC</createdTime>
+<generatorID>CBD404C5-53DA-78A0-996A-40CD60382ECE</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>5297D00A-2163-9A35-ED05-BCA439C45D8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C87B0F25-4D9E-6CB8-7093-7FFE0A31909D" name="Producto PK">

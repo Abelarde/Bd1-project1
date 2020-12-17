@@ -41,6 +41,20 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idCliente" id="9128BE97-8ED4-564E-9E3D-CCBDA9948AC9">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:08:36 UTC</createdTime>
+<generatorID>20D1A2E9-A5B4-E111-8F50-F7A9DA8748A8</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<referedAttribute>F533258C-868A-3F39-1651-F03CD8D10A46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B269B27B-9A25-F0D0-D4C2-BF8A4F416769" name="Factura PK">

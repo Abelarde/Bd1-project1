@@ -54,6 +54,20 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idPais" id="7584C995-EB61-57F4-A2AA-3FCA8C21D482">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:51:33 UTC</createdTime>
+<generatorID>D29604E6-51B6-2841-1D56-B05026EF5F78</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>8F84C4B2-A1F0-88E6-5D24-9BF09E193714</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C1ED56C6-6DAF-77AB-B18B-EDF04D8F8985" name="Cliente PK">

@@ -39,7 +39,7 @@ Persona1 se le asigne uno o mas vuelos si no es posible andar en mas de uno al m
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="11FDDA05-B243-DD78-1302-7B02AC8E4FCD" otype="Entity" vid="016C5F74-24B3-55FF-E354-CB5CF4EE454D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="888" y="75" width="170" height="171"/>
+<bounds x="890" y="31" width="170" height="171"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="135E7AC7-F250-2DD1-127C-70BDF2F5705F" otype="Entity" vid="CFB2C960-798F-3D7C-19DF-7D5E1FD9FFFF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -184,6 +184,16 @@ pero si los empleados pueden tener mas de algun turno entonces seria con un mast
 <point x="842" y="14"/>
 <point x="848" y="455"/>
 <point x="886" y="455"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="20D1A2E9-A5B4-E111-8F50-F7A9DA8748A8" otype="Relation" vid_source="016C5F74-24B3-55FF-E354-CB5CF4EE454D" vid_target="104FABC3-6FAD-59D0-EA9F-D6C962EE3A51">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="983" y="202"/>
+<point x="983" y="281"/>
+<point x="1151" y="281"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2255E9C6-412E-2DD1-BFD6-AFE291F8C0EF" otype="Relation" vid_source="1C004EEB-EC1A-E44D-F632-009E7B56F5BE" vid_target="CFB2C960-798F-3D7C-19DF-7D5E1FD9FFFF">

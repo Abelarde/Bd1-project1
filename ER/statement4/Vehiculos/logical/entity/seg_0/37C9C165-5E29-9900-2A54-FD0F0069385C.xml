@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37C9C165-5E29-9900-2A54-FD0F0069385C" name="TarjetaCredito">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:39:20 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTarjetaCredito" id="4FB193E2-8175-3988-BC04-A68423D78265">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:39:27 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="63EFCF6B-3EE3-C4D5-641F-5862AC9A8214">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:39:36 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="68597F58-0CB9-DC48-6677-A41434326F28">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:40:06 UTC</createdTime>
+<generatorID>84A66651-F7A8-BFDB-6FF4-7A9068FE3A6E</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>BEBA3FC5-3557-687D-8F54-F2C4EAA3AF24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBanco" id="5C054A24-D6CD-386C-FF23-6C0922226165">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:22:25 UTC</createdTime>
+<generatorID>14FA30DE-D4B6-DC5E-9A49-3C4002F8472F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>B5B4F8EA-CADD-749A-4096-9C1E532109A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="89673A54-2E67-65D1-8FB2-72165EA113B0">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:35:33 UTC</createdTime>
+<generatorID>C0F60145-0268-28C1-3A57-C6B4D648E599</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>90B01BA0-C4C0-EE15-8F7C-A4C7010D5208</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DFCA813-9907-4CC3-7D2A-3E390737D0C0" name="Tarjeta PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:39:34 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FB193E2-8175-3988-BC04-A68423D78265</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

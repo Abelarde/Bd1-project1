@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88D781EB-1BBA-7881-78C9-D3648406A1E3" containerWithKeyObject="BB1984E4-50A2-1F43-5F91-5F1D18F4DCE2" localFKIndex="3FB4595E-CC38-3D4B-975E-3553AA80EE0A" name="Desaparecido_Complexion_Desaparecido_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>00F819C6-13F4-56E5-D7E4-0C618C6497EF</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<referredTableLongName>Desaparecido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1328283A-49C5-A580-9A46-1463CA91B402</referredTableID>
+<keyObject>900ED99D-B652-D17D-CCA5-32C8DCD8CCFC</keyObject>
+<referredKeyID>900ED99D-B652-D17D-CCA5-32C8DCD8CCFC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDesaparecido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

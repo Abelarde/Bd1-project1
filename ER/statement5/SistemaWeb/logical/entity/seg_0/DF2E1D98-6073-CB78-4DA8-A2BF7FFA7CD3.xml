@@ -40,6 +40,34 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idTipoLineaDeEnsamblaje" id="0574E156-FA0F-34BF-478D-99613029AAF3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:30:15 UTC</createdTime>
+<generatorID>8DADA00A-7EDE-DE9D-0BD3-055F6DDE95C3</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>19D8344D-CF9E-7C21-B120-3EEFE97EE504</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="EB26D0A7-7B7F-F211-A464-FF48F0600C48">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:39:52 UTC</createdTime>
+<generatorID>E1B8EDC4-65F3-9CA8-8417-5396DF54D6CF</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>2F515FF3-415C-B221-116D-4658FA1319F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="153AC822-1867-E036-B388-86D464CC609F" name="LineaEnsamblaje PK">

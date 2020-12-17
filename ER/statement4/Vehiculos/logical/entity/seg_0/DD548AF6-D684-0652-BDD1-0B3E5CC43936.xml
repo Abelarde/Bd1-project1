@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD548AF6-D684-0652-BDD1-0B3E5CC43936" name="Sucursal_Empleado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:22:43 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSucursal" id="397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:23:18 UTC</createdTime>
+<generatorID>E020C3E9-44C5-FD8B-77E1-BCFFD90693C9</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>39095557-F156-6292-6A99-0E30CFD3E256</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="E0A03092-A95A-570D-A582-D9D5E994F4A7">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:23:25 UTC</createdTime>
+<generatorID>07B226E9-9B13-3624-C34D-F4D8F040DE98</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>90B01BA0-C4C0-EE15-8F7C-A4C7010D5208</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="710A926F-8C17-1741-7C2C-F3E652165594">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:33:24 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6F2571F-7CAB-58B2-8E6E-9B8379E2DD0F" name="Sucursal_Empleado PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:33:16 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0A03092-A95A-570D-A582-D9D5E994F4A7</attributeRef>
+<attributeRef>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</attributeRef>
+<attributeRef>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</attributeRef>
+<attributeRef>E0A03092-A95A-570D-A582-D9D5E994F4A7</attributeRef>
+<attributeRef>710A926F-8C17-1741-7C2C-F3E652165594</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

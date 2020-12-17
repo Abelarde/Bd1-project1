@@ -92,20 +92,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idDenuncia" id="322783A8-2F22-CC25-D1A2-CAE93F42C0A2">
-<createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:35:15 UTC</createdTime>
-<generatorID>779F10A1-FA11-E898-424D-8FFF3BB75403</generatorID>
-<ownerDesignName>Guatemala</ownerDesignName>
-<engineerTo>
-<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
-</engineerTo>
-<referedAttribute>80E31B9D-CFBE-C4DD-4615-C5B1C38E8BF1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="idEdnia" id="3E7E9C37-2628-9F1A-9B86-F6C27BBD9968">
 <createdBy>eduardo</createdBy>
 <createdTime>2020-12-12 23:37:01 UTC</createdTime>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5EB59D6-ED82-C1D9-EF9F-31CD42FC8B16" containerWithKeyObject="1328283A-49C5-A580-9A46-1463CA91B402" localFKIndex="2EF10052-18D4-FC9E-C485-AC92FE875B66" name="Desaparecido_Etnia_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>DAD5832B-BC54-835E-403C-C8C3286BB6BE</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<referredTableLongName>Etnia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>635A23B8-53D7-A699-071A-0659F7BB0CFC</referredTableID>
+<keyObject>DC3D846F-E794-C75A-9FA3-EE89343450DA</keyObject>
+<referredKeyID>DC3D846F-E794-C75A-9FA3-EE89343450DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEdnia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

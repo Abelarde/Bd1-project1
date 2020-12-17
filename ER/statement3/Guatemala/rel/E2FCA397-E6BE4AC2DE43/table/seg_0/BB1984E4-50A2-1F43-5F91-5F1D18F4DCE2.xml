@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB1984E4-50A2-1F43-5F91-5F1D18F4DCE2" name="Desaparecido_Complexion">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>F1FA117A-7333-CA34-5AD9-8B2CB657300D</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Desaparecido_idDesaparecido" id="04AD3A4A-F675-106A-CD7A-231D183305C4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>E0FDE489-8059-0AFF-DEBB-FE818888E482</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88D781EB-1BBA-7881-78C9-D3648406A1E3" referredColumn="1C5C8648-9E23-4F73-D3DC-1D50D32418FA"/>
+</associations>
+</Column>
+<Column name="Complexion_idComplexion" id="E57E50E3-AFDE-C6D3-9323-72B903ED7D1F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>7EED714C-669F-2218-F379-AB5CAA6767E7</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA29C953-88A2-B7AA-A0F2-9BC901E96D7A" referredColumn="F9862DFB-DFE2-FB53-559A-C55BB50E903E"/>
+</associations>
+</Column>
+<Column name="color" id="AFCBED7F-B1AD-ECC3-A621-D1D7A366ACDD">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>22295DC1-FD25-5CA8-84BA-3FE7B4158104</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FB4595E-CC38-3D4B-975E-3553AA80EE0A" name="Desaparecido_Complexion_Desaparecido_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>00F819C6-13F4-56E5-D7E4-0C618C6497EF</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04AD3A4A-F675-106A-CD7A-231D183305C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3BB72AB-5E08-05A0-95C1-5B687297CECF" name="Desaparecido_Complexion_Complexion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>29151CCA-2DDB-2EB8-CE2C-BA58774F159D</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E57E50E3-AFDE-C6D3-9323-72B903ED7D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

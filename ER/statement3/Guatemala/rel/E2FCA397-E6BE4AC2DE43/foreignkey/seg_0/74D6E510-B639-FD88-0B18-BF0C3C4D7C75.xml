@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74D6E510-B639-FD88-0B18-BF0C3C4D7C75" containerWithKeyObject="5CE48DB3-5264-22DC-D017-6AC1637AAAA3" localFKIndex="D0DA0685-DB11-5950-2868-5A68CF111DCF" name="Denuncia_Denunciante_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>951DD730-68B1-11C5-FD3E-210D5926EB9D</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<referredTableLongName>Denunciante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7AD8151-F96F-2F9C-FC7A-66A3C3734E11</referredTableID>
+<keyObject>3BB207B1-CDC5-C473-7E1E-EC93D0A90214</keyObject>
+<referredKeyID>3BB207B1-CDC5-C473-7E1E-EC93D0A90214</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDenunciante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

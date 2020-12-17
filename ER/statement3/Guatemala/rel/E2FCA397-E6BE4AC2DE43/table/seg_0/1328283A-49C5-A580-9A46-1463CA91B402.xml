@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1328283A-49C5-A580-9A46-1463CA91B402" name="Desaparecido">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>6E3F264E-F6DF-7534-883B-6F12AC0E762F</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDesaparecido" id="1C5C8648-9E23-4F73-D3DC-1D50D32418FA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>4E612185-6165-F5A8-8C83-6831D2661EA1</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6161763B-CAAB-4A3C-1AA9-BB66DA7CFB79">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>B7AE2623-9515-82B3-7BE6-BC849C3ACCB3</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="00AD99F5-D89B-96EF-A6BF-918D28047ACA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>FEE4C305-7287-95BC-E25A-F3809AA30A0E</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion" id="6D907860-732E-D8EB-7125-8E34821033B8">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>FF8DFCC2-7965-BEB0-01B9-AFFF3B590FCB</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="CD59E8FB-EDE8-59C8-6C08-1D3B2FCFEE92">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>8BB2A3C0-9792-14C9-7087-8E6178C03EC1</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="C38B4113-52DA-0AA2-6D30-B271B8F1EF9B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>25ACA5A2-E948-CB57-2D59-4EB96B923D0B</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Etnia_idEdnia" id="E5216D65-BB1A-226B-D166-2DE00C6A4A40">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>3E7E9C37-2628-9F1A-9B86-F6C27BBD9968</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5EB59D6-ED82-C1D9-EF9F-31CD42FC8B16" referredColumn="9E2A9FEE-9BD6-8FC8-3460-801FDDED8200"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="900ED99D-B652-D17D-CCA5-32C8DCD8CCFC" name="Desaparecido_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>225D3849-E687-0080-142F-10032623AA3D</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C5C8648-9E23-4F73-D3DC-1D50D32418FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EF10052-18D4-FC9E-C485-AC92FE875B66" name="Desaparecido_Etnia_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>DAD5832B-BC54-835E-403C-C8C3286BB6BE</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5216D65-BB1A-226B-D166-2DE00C6A4A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

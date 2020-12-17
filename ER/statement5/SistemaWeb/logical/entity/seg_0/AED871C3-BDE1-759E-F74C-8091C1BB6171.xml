@@ -40,6 +40,34 @@
 <dataTypeSize>255 CHAR</dataTypeSize>
 <ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idColor" id="06A4DA18-C3D0-5B08-603F-B5974FC93BCD">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:09:34 UTC</createdTime>
+<generatorID>2619D994-7EC3-555A-E0B8-D6C136C42A9F</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>27E2A902-3B55-4DAC-F894-588BF39E8AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoPartte" id="061F2D39-2E91-0339-53E5-1AB34FD683ED">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:09:53 UTC</createdTime>
+<generatorID>997EE36E-898A-BC1F-208C-7775BE29D72F</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>510BFC76-C6DE-C05A-1625-237C4721AD16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="80240F72-BE6C-62B0-1FE6-0DDA5D4C465C" name="Partes PK">

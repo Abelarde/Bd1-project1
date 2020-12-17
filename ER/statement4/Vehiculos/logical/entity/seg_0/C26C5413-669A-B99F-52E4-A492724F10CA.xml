@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C26C5413-669A-B99F-52E4-A492724F10CA" name="Venta">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:54:10 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idVenta" id="3A76D7BD-5852-E3CC-61C9-95798D24AF21">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:54:16 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="C6FEA074-CF03-3B82-EF52-276E1360216B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:55:41 UTC</createdTime>
+<generatorID>FC47E72F-3381-D537-B113-5CF39A37E39D</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>BEBA3FC5-3557-687D-8F54-F2C4EAA3AF24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="montoDescuento" id="180A6EC5-B99C-2C72-777B-40D1A50CDE27">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:04:31 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razonDescuento" id="41AE418D-495F-6D80-EB3C-AAF7EEC5D1FF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:04:48 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaHora" id="40C121D0-B2BA-ED43-D07C-3679E16A1010">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:06:15 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal1" id="E6E3562F-20BA-F4DC-C275-F73F168965BF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:08:13 UTC</createdTime>
+<generatorID>C762239B-7D44-0FBF-EDEF-0BAA63639E9A</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado1" id="EC18D499-ADB9-1893-200C-6578759908C9">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:08:13 UTC</createdTime>
+<generatorID>C762239B-7D44-0FBF-EDEF-0BAA63639E9A</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>E0A03092-A95A-570D-A582-D9D5E994F4A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal2" id="FEEBB70B-D9FF-93D8-BC53-3CD826D509C5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:09:03 UTC</createdTime>
+<generatorID>1B078E8B-4BF6-0C91-0D89-0C2A57841731</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado2" id="3E197FA3-D62B-25EE-EB54-3A6B5F656651">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:09:03 UTC</createdTime>
+<generatorID>1B078E8B-4BF6-0C91-0D89-0C2A57841731</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>E0A03092-A95A-570D-A582-D9D5E994F4A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="60BEF124-5A73-14E1-D01A-307FFBF6371C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:10:16 UTC</createdTime>
+<generatorID>F072F655-54AD-B0D3-F87D-243DD9DE24F0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>E0A03092-A95A-570D-A582-D9D5E994F4A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal" id="57DA5EA8-A313-F124-930C-4E44AFCA5D73">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:10:16 UTC</createdTime>
+<generatorID>F072F655-54AD-B0D3-F87D-243DD9DE24F0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal3" id="3288BEF2-9C47-EE9C-4E8B-4869D2E8973D">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:10:16 UTC</createdTime>
+<generatorID>F072F655-54AD-B0D3-F87D-243DD9DE24F0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado3" id="953D66E6-E32D-49BF-32E8-72283C53262F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:10:16 UTC</createdTime>
+<generatorID>F072F655-54AD-B0D3-F87D-243DD9DE24F0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>E0A03092-A95A-570D-A582-D9D5E994F4A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="D18DD756-A052-B399-FBBF-7184DCBC01EF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:10:16 UTC</createdTime>
+<generatorID>F072F655-54AD-B0D3-F87D-243DD9DE24F0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>710A926F-8C17-1741-7C2C-F3E652165594</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="BFDD019E-1E74-12F9-8196-5AAB52EA7012">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:12:29 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cre1cont0" id="7C040B8C-1AAF-D3E5-DC4D-EA1C37369D69">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:31:25 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64DEB475-48A1-2950-4000-9192C346DC25" name="Venta PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:54:21 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A76D7BD-5852-E3CC-61C9-95798D24AF21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

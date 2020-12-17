@@ -65,10 +65,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idDesaparecido" id="7BAA139E-7EA2-8EBD-B5C6-F60AFC32B9A3">
+<Attribute name="idDesaparecido" id="F9AF0DB0-2235-5064-0683-F63A8F0C594C">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:35:01 UTC</createdTime>
-<generatorID>779F10A1-FA11-E898-424D-8FFF3BB75403</generatorID>
+<createdTime>2020-12-17 03:50:00 UTC</createdTime>
+<generatorID>B0724416-EE96-8FB6-B836-BC83447AF13A</generatorID>
 <ownerDesignName>Guatemala</ownerDesignName>
 <engineerTo>
 <item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>

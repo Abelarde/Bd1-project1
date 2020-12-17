@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5115ADC1-554C-7D91-3B74-59B0D240D5F1" name="Irreconocido_Objeto">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>38B3CB61-B16E-FFF9-AC41-42455A30C004</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="caracteristica" id="D684B97B-F72D-B732-FEDA-8EB035D49626">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>07070EB1-B23C-76D1-8206-0EC777723487</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Irreconocido_idIrreconocido" id="4E50C389-1E6B-44C5-AE84-60EBE89AB7CA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>8111C68B-C516-D845-3BE9-3CF99DFD43D2</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78A3A672-1C98-10EA-EBF2-37642B19311D" referredColumn="CFCA190E-A507-2EE3-49BF-17DE01F15FF0"/>
+</associations>
+</Column>
+<Column name="Objeto_idObjeto" id="A4A3966B-F05D-A982-9D79-E017CFB7CFB1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>08B0A3EF-CE5B-37E8-79EB-531567C2CC67</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE38CA7A-8930-C60A-A47B-2664B4DA19DD" referredColumn="776D0041-589C-FDA3-8C98-6FF8CD402501"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0159C0BD-D75A-AE5B-04C5-9328537F6597" name="Irreconocido_Objeto_Irreconocido_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>177466D9-B1E0-CA87-1B3A-DD204F88500C</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E50C389-1E6B-44C5-AE84-60EBE89AB7CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12498B9F-B607-D1D4-1867-9ADC6F9A02CB" name="Irreconocido_Objeto_Objeto_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:02:08 UTC</createdTime>
+<generatorID>3CE529EB-6DE1-49B8-5830-51385F1E2506</generatorID>
+<ownerDesignName>Guatemala</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A3966B-F05D-A982-9D79-E017CFB7CFB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

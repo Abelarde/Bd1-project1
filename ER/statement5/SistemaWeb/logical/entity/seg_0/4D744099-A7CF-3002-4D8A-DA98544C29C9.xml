@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D744099-A7CF-3002-4D8A-DA98544C29C9" name="Armado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:13:02 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idParte" id="3411D8F9-D9FE-F6DC-BE41-AEA4830495A6">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:13:19 UTC</createdTime>
+<generatorID>624A9CF4-B1AD-BF98-115A-9D5E866B00CC</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>E827F56B-4C5A-ECB4-410D-002B667EA654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEtapa" id="6EF1D6F4-A95E-EE6C-5320-2C93303DC792">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:13:23 UTC</createdTime>
+<generatorID>8FAE6921-2CFE-5146-C749-75E401DC3952</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>0CCF4C45-1C4A-D3EF-F044-CAE237F28CF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

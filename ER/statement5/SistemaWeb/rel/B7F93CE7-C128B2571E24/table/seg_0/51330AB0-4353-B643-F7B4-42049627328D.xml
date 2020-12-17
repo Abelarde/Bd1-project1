@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51330AB0-4353-B643-F7B4-42049627328D" name="Bodega">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>DD0F6B40-4E61-8AD2-A0B7-56B3BD69A326</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBodega" id="8F993FBB-738F-4BF4-F8A9-CA2562A264F9">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>FD35D5CE-2A08-7543-500A-F455F77DBB5E</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="9DE116B5-714A-7A73-48A0-E14821DFFDCA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>0DDC2B22-F64C-08E0-7DBC-92F9F33E5079</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoBodega_idTipoBodega" id="CEAB32D0-52C6-9FBC-1578-0C80EFBCE6B8">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>4D8E8844-C0EC-2DD5-BB1D-04BFDA4BDCB8</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="927511F4-9F07-B5DB-CBCB-84E5E238F80C" referredColumn="B5FD2BC1-9C78-1546-EC6B-C27C1CAE7618"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="3609011C-B08A-B6EA-F12F-BD1D2630DDAF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>D9600C19-12BC-E62D-0335-613ADA5DA620</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70843C5C-58AB-BD65-9648-5676D43195A4" referredColumn="CCDC97B2-9006-E049-7E5D-85D7393A3B8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F018CAF7-AD6A-8B12-149F-36D0FA0AE802" name="Bodega_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>D534AD63-2D3F-05BB-D20E-C96EC39F3D53</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F993FBB-738F-4BF4-F8A9-CA2562A264F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C5A0888-DF16-7D0A-9429-9ADD66E49676" name="Bodega__IDX">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3609011C-B08A-B6EA-F12F-BD1D2630DDAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19D99BBC-0A24-2690-9741-BB2500B9B6F3" name="Bodega_TipoBodega_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>BAD203F2-CF0D-44FE-FADD-F1EC72404058</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEAB32D0-52C6-9FBC-1578-0C80EFBCE6B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB173F23-893A-4D6F-B5F1-D18DA9725F7D" name="Bodega_Empleado_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>A7AF114F-227E-A592-53FD-D3634EA56373</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3609011C-B08A-B6EA-F12F-BD1D2630DDAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF0EC624-7B4D-5CDD-9455-2FEADC0ECD5B" name="Vehiculo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:53:42 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idVehiculo" id="4008D64E-B731-C9F2-0426-DFF159955837">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:53:48 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="02D2DC9F-5D73-5404-CE39-5E2B9EE534FC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:54:29 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="9682B39D-0759-1727-7CE6-015A881B91DF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:55:11 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilometraje" id="389A8425-AEF8-2F7B-FCB1-53627829BF24">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:55:31 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="A06523C8-BF7E-53A2-14D8-0224A9A9A3A3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:55:46 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noPuertas" id="A9F5E119-FB51-C11A-1439-77ABF91F5ECC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:56:02 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMarca" id="158CD404-AED1-584C-5046-9D6E5C64091B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:59:39 UTC</createdTime>
+<generatorID>8781413E-7164-9A2E-7036-547D6BB16A80</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>DD302C2D-561A-3306-682B-61CF7ED2C26F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTransmision" id="8925B58F-2DBB-4D8B-6FD9-23F428A39799">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:59:47 UTC</createdTime>
+<generatorID>829CDCCE-66B0-CDB8-DF3F-194AB4036A91</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>DDE5DA9D-B682-4F4D-D246-CB8568AB5D51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCondicion" id="087C44C1-A11C-E402-7DC0-EC89A83C744D">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:59:55 UTC</createdTime>
+<generatorID>36F043FF-8966-5BB0-A7DA-839D34677FAC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>57803F09-3901-3D64-A961-8FC876D16929</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCompra" id="B01DC127-F493-A76F-BBA1-DBD9712B263E">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:06:55 UTC</createdTime>
+<generatorID>810790DE-79F2-603D-589E-53F9EF8D037F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>2FF8A3CF-B784-ECD5-A6DE-70E50BC8607C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="374B3D2D-B9DC-A6BF-4228-A38A928DC3D6">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 04:57:11 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSucursal" id="D7DF1082-6259-6347-A7C0-A456BFF9ADF4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:40:29 UTC</createdTime>
+<generatorID>B2D75972-3371-3195-9F14-C7861D530967</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>39095557-F156-6292-6A99-0E30CFD3E256</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idVenta" id="9EE1BDB6-704C-017A-8563-0A3CA649B445">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 05:41:51 UTC</createdTime>
+<generatorID>AE3FEFA7-67BC-973C-1CE7-2F32DDDD4849</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<referedAttribute>3A76D7BD-5852-E3CC-61C9-95798D24AF21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7150E75-D223-AF5D-A0B7-E5BFB75CFEDF" name="Vehiculo PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 03:53:59 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4008D64E-B731-C9F2-0426-DFF159955837</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

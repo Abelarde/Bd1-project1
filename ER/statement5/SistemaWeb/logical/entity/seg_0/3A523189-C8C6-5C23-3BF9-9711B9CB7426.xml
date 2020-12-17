@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A523189-C8C6-5C23-3BF9-9711B9CB7426" name="SoporteTecnico">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A523189-C8C6-5C23-3BF9-9711B9CB7426" name="ClienteReclamo">
 <createdBy>eduardo</createdBy>
 <createdTime>2020-12-13 19:57:39 UTC</createdTime>
 <ownerDesignName>SistemaWeb</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idSoporteTecnico" id="D06D1766-CD39-7961-99C3-C243F6F23A4D">
+<Attribute name="idClienteReclamo" id="D06D1766-CD39-7961-99C3-C243F6F23A4D">
 <createdBy>eduardo</createdBy>
 <createdTime>2020-12-13 19:57:49 UTC</createdTime>
 <ownerDesignName>SistemaWeb</ownerDesignName>
@@ -38,6 +38,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="7FAA956A-ECDB-52F5-3AE4-4D4215E8A3D6">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:55:57 UTC</createdTime>
+<generatorID>53E04A4D-6D5A-0FA7-E5E5-670E048A3030</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>3D9A19F7-4BD8-950B-3969-E693A3A0AA66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costoTotal" id="58740E0B-F099-E34D-A941-F67E028448C4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:59:16 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

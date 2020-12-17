@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="161F22DE-030F-54B0-AF74-37FF760D6156" name="Producto_Parte">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:24:07 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProducto" id="D01B3EE0-1E37-C087-BE8F-D6BE50526D95">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:24:23 UTC</createdTime>
+<generatorID>C4082D81-150B-BD34-C278-B1E3C5662B5C</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>A376BDE0-A90F-3918-80D1-3970FA31D930</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idParte" id="193D8AEF-A6F8-12AA-E9AA-E34F550D1260">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:24:28 UTC</createdTime>
+<generatorID>0CDFF578-F8A7-D31A-B579-70B655F86C43</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>E827F56B-4C5A-ECB4-410D-002B667EA654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

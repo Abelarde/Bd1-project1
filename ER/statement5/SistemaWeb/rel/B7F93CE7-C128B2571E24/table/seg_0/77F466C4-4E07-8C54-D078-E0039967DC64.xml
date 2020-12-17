@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77F466C4-4E07-8C54-D078-E0039967DC64" name="Relation_4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Parte_idParte" id="68131D64-3B13-08AF-1C8E-B20DA885BEF4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A07CDAA-B92A-0800-8977-256AB905FC48" referredColumn="0712AB90-748B-0B21-AD78-D77AB1072C8F"/>
+</associations>
+</Column>
+<Column name="Parte_idParte1" id="E17E603E-7F06-9064-48F7-0FD2C36C1A89">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03EAA3B5-7087-87D4-0268-87194EA47DCA" referredColumn="0712AB90-748B-0B21-AD78-D77AB1072C8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF31FF71-C1D1-EEAC-6D52-C67DDECE063B" name="Relation_4_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68131D64-3B13-08AF-1C8E-B20DA885BEF4"/>
+<colUsage columnID="E17E603E-7F06-9064-48F7-0FD2C36C1A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="696BE162-4CA6-9318-6C44-594E37E269FF" name="Relation_4_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>0AC97D4E-491B-ACFB-D871-C671119FCE09</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68131D64-3B13-08AF-1C8E-B20DA885BEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12A3CF33-2214-058D-3692-BAB18EE8411A" name="Relation_4_Parte_FKv1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:06:56 UTC</createdTime>
+<generatorID>0AC97D4E-491B-ACFB-D871-C671119FCE09</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17E603E-7F06-9064-48F7-0FD2C36C1A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

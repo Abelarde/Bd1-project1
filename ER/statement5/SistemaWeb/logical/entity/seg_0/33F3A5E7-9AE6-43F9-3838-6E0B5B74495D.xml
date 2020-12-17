@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58ADFB47-A95C-5887-4C59-BF2802164948" name="Compania">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33F3A5E7-9AE6-43F9-3838-6E0B5B74495D" name="Puesto_Empleado">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-13 19:50:17 UTC</createdTime>
+<createdTime>2020-12-17 06:38:42 UTC</createdTime>
 <ownerDesignName>SistemaWeb</ownerDesignName>
 <engineerTo>
 <item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
@@ -15,44 +15,33 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idCompaia" id="1283C15C-32C7-3DCC-FDFD-5769AE4E34A5">
+<Attribute name="idPuesto" id="24B228A2-0365-16D6-60F2-8FDBE2BAF168">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-13 19:50:26 UTC</createdTime>
+<createdTime>2020-12-17 06:39:02 UTC</createdTime>
+<generatorID>DF25D951-D4B4-7B83-DA42-94B008C33D03</generatorID>
 <ownerDesignName>SistemaWeb</ownerDesignName>
 <engineerTo>
 <item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
 </engineerTo>
+<referedAttribute>0DA17B74-720D-1D24-7696-3C49A8B77677</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="AEDC314E-7273-427D-EBC9-B5D6FA2EC92D">
+<Attribute name="idEmpleado" id="D87F0D9E-C7D9-FBF1-E047-E4B7D5CA6A7C">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-13 19:50:31 UTC</createdTime>
+<createdTime>2020-12-17 06:39:06 UTC</createdTime>
+<generatorID>E8DFF2F1-DEAA-A0A9-221E-79F870899A85</generatorID>
 <ownerDesignName>SistemaWeb</ownerDesignName>
 <engineerTo>
 <item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
 </engineerTo>
+<referedAttribute>2F515FF3-415C-B221-116D-4658FA1319F8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 CHAR</dataTypeSize>
-<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C5D310B0-76CB-75F5-B396-22A09D7A28D3" name="Compania PK">
-<createdBy>eduardo</createdBy>
-<createdTime>2020-12-13 19:50:30 UTC</createdTime>
-<ownerDesignName>SistemaWeb</ownerDesignName>
-<engineerTo>
-<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>1283C15C-32C7-3DCC-FDFD-5769AE4E34A5</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

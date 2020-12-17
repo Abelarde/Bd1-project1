@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7048DEDD-501B-262C-6F7B-3E077C0DE0D9" name="Producto_LineaEnsamblaje">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:36:33 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProducto" id="91A3B7A6-F214-6C86-0069-24BD0BAC9078">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:37:07 UTC</createdTime>
+<generatorID>DAD256F1-947B-EF8C-42F5-134FDF64D9C4</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>A376BDE0-A90F-3918-80D1-3970FA31D930</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idLineaEnsamblaje" id="6F876616-FB2A-4415-9B1A-B4480B87C4F5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 06:37:16 UTC</createdTime>
+<generatorID>591FDDE6-CF12-0ED7-25C5-9F31B4BD1972</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<referedAttribute>8971A033-22FA-450E-3F33-BCB4F6E37783</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

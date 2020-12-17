@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EB7CA11-F43B-1520-A180-FD361F77EB1C" name="Color">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5877BEFD-D14F-29EE-4D64-D0B29B990E21" name="Marca">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:10:15 UTC</createdTime>
-<ownerDesignName>Guatemala</ownerDesignName>
+<createdTime>2020-12-17 03:56:51 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
 <engineerTo>
-<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idColor" id="287B4B30-6905-DD48-4259-5761BB495062">
+<Attribute name="idMarca" id="DD302C2D-561A-3306-682B-61CF7ED2C26F">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:10:19 UTC</createdTime>
-<ownerDesignName>Guatemala</ownerDesignName>
+<createdTime>2020-12-17 03:56:55 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
 <engineerTo>
-<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="71E9ACF4-B43A-64A2-49C6-6C1CEADA18E0">
+<Attribute name="nombre" id="E612AB6D-F260-7C01-BA1C-066B3C2BD2CA">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:10:25 UTC</createdTime>
-<ownerDesignName>Guatemala</ownerDesignName>
+<createdTime>2020-12-17 03:57:04 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
 <engineerTo>
-<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,16 +42,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8F67B856-AE20-8975-7E73-C29FE8C2F45A" name="Color PK">
+<identifier id="074BFE75-559B-F399-5A9C-F2940C15D5CF" name="Marca PK">
 <createdBy>eduardo</createdBy>
-<createdTime>2020-12-12 23:10:24 UTC</createdTime>
-<ownerDesignName>Guatemala</ownerDesignName>
+<createdTime>2020-12-17 03:57:03 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
 <engineerTo>
-<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+<item key="82B302AE-76FF-314C-E566-8DD557856BD8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>287B4B30-6905-DD48-4259-5761BB495062</attributeRef>
+<attributeRef>DD302C2D-561A-3306-682B-61CF7ED2C26F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
