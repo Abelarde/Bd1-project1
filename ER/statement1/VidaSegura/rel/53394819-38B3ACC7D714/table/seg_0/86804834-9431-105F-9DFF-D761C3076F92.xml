@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86804834-9431-105F-9DFF-D761C3076F92" name="HistorialLllamada_Seguro">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>E2EB4719-5A0C-CA72-760A-A3988E8A08C3</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HistorialLlamada_idRegistroLlamada" id="47B3760E-5FCB-0B96-7C90-9FCC16808D8C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>ACBCF8F0-4DBD-B962-E1AC-7D27003A1D56</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FB0344C-FC24-EB95-57C8-8BA7FEE3B40D" referredColumn="B6C52AE7-CE15-8202-A431-DCDBFCAD8917"/>
+</associations>
+</Column>
+<Column name="PolizaDeSeguro_idPolizaDeSeguro" id="F4794274-CCB0-3631-B83E-F9BF9EB32727">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>F462A28F-CF73-A8A8-2294-1CDF74C945E1</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC3BDF5D-022B-ED92-FFB8-9C9FE28FE6D3" referredColumn="91D10D9C-BBFC-A52A-8D2D-48BAF1C864A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99BFA530-8439-C33D-2829-CD8CF2FCAF68" name="HistorialLllamada_Seguro_HistorialLlamada_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>4E8F86C4-3695-3EFE-F83D-94E33621D16E</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B3760E-5FCB-0B96-7C90-9FCC16808D8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="021EEA6C-FA93-22B0-5612-383AC678564A" name="HistorialLllamada_Seguro_PolizaDeSeguro_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>83961F15-38B4-C955-5D69-4636BAD94E57</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4794274-CCB0-3631-B83E-F9BF9EB32727"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EEC16D-1E9A-7024-C2CA-28E69176D064" name="Vehiculo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>FF0EC624-7B4D-5CDD-9455-2FEADC0ECD5B</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVehiculo" id="173A3465-89C1-EFD1-A86B-91A354EF10CC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>4008D64E-B731-C9F2-0426-DFF159955837</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="1C9498B8-57F8-60F1-3D60-3BECF2981298">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>02D2DC9F-5D73-5404-CE39-5E2B9EE534FC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="A68A7F43-8500-9F3A-AD3F-1B2AFD5D6458">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>9682B39D-0759-1727-7CE6-015A881B91DF</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kilometraje" id="5612E449-2896-226B-4A84-B0945AA7FD2F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>389A8425-AEF8-2F7B-FCB1-53627829BF24</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="C3587B22-D35E-B381-A85F-6461A9B8A924">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>A06523C8-BF7E-53A2-14D8-0224A9A9A3A3</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="noPuertas" id="C350B353-0B80-5CDC-D574-BA6835F49471">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>A9F5E119-FB51-C11A-1439-77ABF91F5ECC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca_idMarca" id="FBCF0889-01F0-CBBA-D815-E44479E868C1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>158CD404-AED1-584C-5046-9D6E5C64091B</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A688AB18-F975-CB48-018B-7B2F092CA1A5" referredColumn="0ADA96CF-7DD2-43E6-631F-E7708A921D67"/>
+</associations>
+</Column>
+<Column name="Transmision_idTransmision" id="41865424-9093-12C7-F650-DF587B919725">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>8925B58F-2DBB-4D8B-6FD9-23F428A39799</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31FC29EF-6373-9E59-2BF7-C52B9B811D0F" referredColumn="616720E7-7DD2-5419-9FEA-77B7297F9509"/>
+</associations>
+</Column>
+<Column name="Condicion_idCondicion" id="4D217587-D7F2-CBD4-E2B2-8090F60892E6">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>087C44C1-A11C-E402-7DC0-EC89A83C744D</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D90D80B-3B94-87F7-67FC-5D7B8F566704" referredColumn="2A51900C-29EC-8D4C-0AF1-23FC09161F1C"/>
+</associations>
+</Column>
+<Column name="Compra_idCompra" id="AE835C33-E300-50DD-D06C-3A4BF9BC9E75">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>B01DC127-F493-A76F-BBA1-DBD9712B263E</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1FBF6FB-25F0-4EC9-E105-0EC421C7F486" referredColumn="B9A0E024-F6D3-1FB6-C5D7-F8B958472519"/>
+</associations>
+</Column>
+<Column name="precio" id="A79ACB7C-83C3-F37C-EA23-F3A2E597B385">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>374B3D2D-B9DC-A6BF-4228-A38A928DC3D6</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_idSucursal" id="B9BEEE8E-F5DF-FFCF-D480-BAE7DAE263A4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>D7DF1082-6259-6347-A7C0-A456BFF9ADF4</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B328DF6-03C6-6A95-1EC1-DD5DDC86B524" referredColumn="B29FD44C-A822-F210-E2A7-0323434D29F6"/>
+</associations>
+</Column>
+<Column name="Venta_idVenta" id="E551B2FA-EDE7-E0B3-052E-3D51E0C7CCF3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>9EE1BDB6-704C-017A-8563-0A3CA649B445</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32ABF67B-8473-9B68-44AC-CBC7189C39CC" referredColumn="9B79A172-1911-24A8-F5E8-6D814B86953F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12A7AA24-B27F-5EA3-990B-CDC311BB97D1" name="Vehiculo_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>F7150E75-D223-AF5D-A0B7-E5BFB75CFEDF</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="173A3465-89C1-EFD1-A86B-91A354EF10CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C81F4739-8B63-1BCE-9754-180BFC952CAB" name="Vehiculo_Sucursal_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>B2D75972-3371-3195-9F14-C7861D530967</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BEEE8E-F5DF-FFCF-D480-BAE7DAE263A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D0B1C9E-CA68-1B6D-F471-B13146E4922E" name="Vehiculo_Venta_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>AE3FEFA7-67BC-973C-1CE7-2F32DDDD4849</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E551B2FA-EDE7-E0B3-052E-3D51E0C7CCF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE1601ED-CA91-61D4-2E82-F60B4958459A" name="Vehiculo_Marca_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>8781413E-7164-9A2E-7036-547D6BB16A80</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBCF0889-01F0-CBBA-D815-E44479E868C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C816B8A1-5E9F-D66B-81E8-ED2F5558BE62" name="Vehiculo_Transmision_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>829CDCCE-66B0-CDB8-DF3F-194AB4036A91</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41865424-9093-12C7-F650-DF587B919725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E4B952-F411-10E1-8917-E608B74880B1" name="Vehiculo_Condicion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>36F043FF-8966-5BB0-A7DA-839D34677FAC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D217587-D7F2-CBD4-E2B2-8090F60892E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5BF1792-A854-A77C-A628-B59B987AE699" name="Vehiculo_Compra_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>810790DE-79F2-603D-589E-53F9EF8D037F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE835C33-E300-50DD-D06C-3A4BF9BC9E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

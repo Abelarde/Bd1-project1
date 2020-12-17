@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8AACEBF-83CA-DAA2-31E1-D0CFF0E99C1F" name="Sucursal">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>008C8818-7716-9C7D-E220-7F3FFCE14B39</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSucursal" id="B29FD44C-A822-F210-E2A7-0323434D29F6">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>39095557-F156-6292-6A99-0E30CFD3E256</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1D39C79F-A33C-B340-8BAF-41EF16C8883F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>258408B8-9C45-D894-2CEE-050056F04242</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="F7C3B62E-E2BB-0517-662C-00F346E95717">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>29F04A09-2D76-8953-E40C-DBC54C4C3D44</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="BB18FBC7-98A7-8103-61B3-F17D818B6657">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>9810BFD2-5FCD-F289-0A20-B9D6E8F2B5D7</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sitioWeb" id="E10B2684-25C2-F66E-3688-8E89C7262E90">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>32DEA962-D13E-BD02-B705-15334B8A11E3</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipio_idMunicipio" id="C6C6D92A-7FC7-2E41-7CF8-1D0C4C8F1AC4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>2C4D6665-B0AB-E0A9-69B9-931D56D6A6C2</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2999310-6BE9-922B-9DE0-66986DA974FB" referredColumn="F4C9B022-C9B1-6EF7-24A9-FF538E98913D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67B360DF-E07F-0396-258E-3298524B5549" name="Sucursal_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>494A171F-88E3-D15B-892D-7BE364DEE619</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B29FD44C-A822-F210-E2A7-0323434D29F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B94B96E-7BA8-7293-FFAB-D2CCD0CE9A02" name="Sucursal_Municipio_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>5D39F4A9-995D-4D63-3474-4BC2A2DE1834</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C6D92A-7FC7-2E41-7CF8-1D0C4C8F1AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

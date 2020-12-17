@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43706441-FCB5-9305-106C-E881CD27B698" name="DetalleFactura">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>DFA0BF90-07F3-D735-E9C7-9D74670E2D3B</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Factura_idFactura" id="9843BF7B-EA2A-58FD-AE72-8B461E7D07AA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>8A8F91C6-DAB9-9A66-0F80-12E74B73AE63</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4757B0-06AE-3933-E9F8-6B70A3472ABE" referredColumn="22B30B06-2CD6-3EAA-3CCB-078E3DCB0A57"/>
+</associations>
+</Column>
+<Column name="Parte_idParte" id="B676F642-AF81-78CE-427C-AFE5DAE0D8E2">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>E17EE621-1F03-7315-9A28-09FB7FBF61DF</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34AFF12C-0ECB-AD4A-43B5-48D651E31353" referredColumn="CB3B13BA-4970-A2C9-C0C0-F7CA9D0EBF55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B93AC122-F7AE-98AC-4F53-7357C2E83FF3" name="DetalleFactura_Factura_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>3F489F10-F257-45E2-1022-474BEFFEFD5E</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9843BF7B-EA2A-58FD-AE72-8B461E7D07AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5284E4F7-0D21-F27B-F52F-8088C9DD2E62" name="DetalleFactura_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>79297FC6-C54C-852C-1C5A-35635CDA3009</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B676F642-AF81-78CE-427C-AFE5DAE0D8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32DA658A-AD0D-8216-726A-316C5B1E681D" name="Reclamo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>E586E1B4-4899-45D6-3ACD-6B219E503718</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReclamo" id="02FDD9F5-B6BE-4D74-F72A-804EE55C2823">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>4A724961-7424-0F4C-50B0-30C3D5F6539A</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_idProveedor" id="E6FA2AF5-AE4C-4A1D-0A4E-846ED3AABE73">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>07D32281-45E1-C493-9F8C-88C4037A3A93</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="239E9E19-1E31-C818-C531-273F0757A386" referredColumn="6DB51913-79D1-676D-C0C1-1BA8079C564E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22C181A7-593E-F8AA-91BD-38E20165E2C8" name="Reclamo_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>17B8B5CA-017B-6382-8AC7-E2716521B476</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02FDD9F5-B6BE-4D74-F72A-804EE55C2823"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9662648-EBED-5E1F-749F-6E15531AE0D8" name="Reclamo_Proveedor_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>3E101E2B-F8CD-5A99-A59F-6E36AC9E80AA</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6FA2AF5-AE4C-4A1D-0A4E-846ED3AABE73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFB86541-77E4-3808-58A5-25696894F025" name="Marca">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>5877BEFD-D14F-29EE-4D64-D0B29B990E21</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMarca" id="0ADA96CF-7DD2-43E6-631F-E7708A921D67">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>DD302C2D-561A-3306-682B-61CF7ED2C26F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3123A454-FCC8-0A89-1032-4D1048139B13">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>E612AB6D-F260-7C01-BA1C-066B3C2BD2CA</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41118E71-2F77-6FB0-1543-AD97F5EDC2A7" name="Marca_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>074BFE75-559B-F399-5A9C-F2940C15D5CF</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ADA96CF-7DD2-43E6-631F-E7708A921D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

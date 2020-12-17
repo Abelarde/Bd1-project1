@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAECC617-5EF8-B18C-4CBE-4A677F31F255" name="Puesto_Empleado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>33F3A5E7-9AE6-43F9-3838-6E0B5B74495D</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Puesto_idPuesto" id="EF3A84B1-9CAE-3001-D566-A6983188D83E">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>24B228A2-0365-16D6-60F2-8FDBE2BAF168</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA2252E6-6E36-38F5-6622-8A8F65A134FF" referredColumn="CFBE1704-BB15-2DD4-D96A-16B0393A7748"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="795F07E5-A12B-207C-4D41-E190262B38EC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>D87F0D9E-C7D9-FBF1-E047-E4B7D5CA6A7C</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50EF1485-79E3-EE4D-EFA5-8FEE8CA4BE2E" referredColumn="3BAFF0D4-6491-B06D-DB53-5F5032204AF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5090AF48-6DD3-106A-0D80-AB77D5119144" name="Puesto_Empleado_Puesto_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>DF25D951-D4B4-7B83-DA42-94B008C33D03</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF3A84B1-9CAE-3001-D566-A6983188D83E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B543EB7-6724-5153-6B24-0F1C86E50324" name="Puesto_Empleado_Empleado_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>E8DFF2F1-DEAA-A0A9-221E-79F870899A85</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="795F07E5-A12B-207C-4D41-E190262B38EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CEA9938-7A8A-5B0B-2A7B-9EFE4152E103" name="Factura_FormaDePago">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>135E7AC7-F250-2DD1-127C-70BDF2F5705F</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FormaPago_idFormaPago" id="1A75F6F9-A149-9D8A-9DD3-32D1727E2B1C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>158A2819-070D-3DD0-CFD1-B3C120F8EECA</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A63045EB-C49F-5183-F4AC-2BC83846D615" referredColumn="66A5A25A-2954-D470-082B-C35066D17164"/>
+</associations>
+</Column>
+<Column name="Factura_idFactura" id="789A2645-2697-3C35-98BA-23DA2A297358">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>24471B74-4D2A-0D82-D19B-6328A52A3504</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="053641C8-97E3-5B57-0BD5-AE7E9A5E5B6E" referredColumn="ACBFB7F8-5169-7D8B-E18B-0D4CC4E81A01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD0DF18D-60F6-0E01-F741-A88221C1F291" name="Factura_FormaDePago_FormaPago_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>2255E9C6-412E-2DD1-BFD6-AFE291F8C0EF</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A75F6F9-A149-9D8A-9DD3-32D1727E2B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC039309-4DDA-DA07-79F9-A5A1C69D64AC" name="Factura_FormaDePago_Factura_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>41172417-FCEC-41DA-773B-0C2EEDEE70E7</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="789A2645-2697-3C35-98BA-23DA2A297358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78795A2D-A6C6-C375-3119-7AF422669EC8" name="RegistroPago_FormaDePago">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>8A289B13-7745-19DB-8704-381FA58ED403</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RegistroPago_idRegistroPago" id="BF23D9A0-0E2B-698A-387C-8424C310809D">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>52CA32F8-C29B-96BC-2795-816742CA688F</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11C43EF1-CA0B-D49F-4CAC-3A72A7B7BBA1" referredColumn="434606F4-0B97-6CD4-E618-06FF6FDC328C"/>
+</associations>
+</Column>
+<Column name="FormasDePago_idFormasDePago" id="7F554EF3-329F-8932-3F99-1BC5FDD2985B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>227A54F1-C071-272C-488D-74857AA7D039</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C87615-DE00-A339-F236-5881992EB0EA" referredColumn="DC1E875A-7EDA-EA86-E12C-BB0BC10FFEB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08C59ACF-C6ED-7C19-5117-F1A271440E22" name="RegistroPago_FormaDePago_RegistroPago_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>EC9D1E34-7B23-7E3C-14DF-A8F65A28E666</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF23D9A0-0E2B-698A-387C-8424C310809D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1882A1C1-55B0-F0F2-F2C9-A2275A17676A" name="RegistroPago_FormaDePago_FormasDePago_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>3E51D2F5-6D8A-3138-9553-A034CC49064F</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F554EF3-329F-8932-3F99-1BC5FDD2985B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

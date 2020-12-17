@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82BD203A-94CC-7AA4-32DF-024B99718154" name="Factura">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>8EEEB06D-011B-E253-1E28-050AA35EB859</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFactura" id="ACBFB7F8-5169-7D8B-E18B-0D4CC4E81A01">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>5BF4F20A-4AC9-884C-5326-7C9816DD079B</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="0126A741-790A-9A5D-897C-523F2EE716E0">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>F9FC2FD5-12CF-12E0-8453-7CBB6F1F4799</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="F1DC80B6-0333-F301-521A-0793FB627074">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>9128BE97-8ED4-564E-9E3D-CCBDA9948AC9</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91591950-C583-9865-47DC-42ACD8024C2B" referredColumn="417EA052-220A-8ED9-3AF2-BC1CF4E4EE9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70FB5B8E-8DE7-C56B-3B45-C83529632C75" name="Factura_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>B269B27B-9A25-F0D0-D4C2-BF8A4F416769</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACBFB7F8-5169-7D8B-E18B-0D4CC4E81A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AF39415-0F7A-56CF-B1CC-EDFC8DFB2E78" name="Factura_Cliente_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>20D1A2E9-A5B4-E111-8F50-F7A9DA8748A8</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1DC80B6-0333-F301-521A-0793FB627074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

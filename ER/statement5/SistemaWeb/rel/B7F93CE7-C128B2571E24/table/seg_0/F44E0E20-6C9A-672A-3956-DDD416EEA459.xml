@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F44E0E20-6C9A-672A-3956-DDD416EEA459" name="Etapa_Estado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>A611720A-C737-1EAC-31CB-8E172C064362</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Etapa_idEtapa" id="814984AA-7A2A-D2ED-3306-46B9434F5B37">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>414C0973-BC24-89E7-B861-2E366BE745B2</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13D73E09-368B-68BF-0BD3-0FDA7C44C660" referredColumn="7DF66D11-E2F3-34EA-A619-11EC5772C383"/>
+</associations>
+</Column>
+<Column name="EstadoEtapa_idEstadoEtapa" id="5BF29361-8D1F-F2F1-2DFD-3100E3192F63">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>679A907C-16CD-8F31-B597-8B92E6DEA0D0</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8023948C-CF81-E347-2B1B-ED9C98573941" referredColumn="C710915D-7EAF-39AF-D357-323E52D770A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D0E4359-5687-9652-7F40-769050BBB21E" name="Etapa_Estado_Etapa_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>F720CB75-B72C-1BBF-A972-C23EDCBBDC81</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814984AA-7A2A-D2ED-3306-46B9434F5B37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7686AB22-5EF9-CFD5-6F0B-7B5A16B3186D" name="Etapa_Estado_EstadoEtapa_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>4673FC04-DE4E-4343-8AAC-92E3D7FCBA70</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BF29361-8D1F-F2F1-2DFD-3100E3192F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

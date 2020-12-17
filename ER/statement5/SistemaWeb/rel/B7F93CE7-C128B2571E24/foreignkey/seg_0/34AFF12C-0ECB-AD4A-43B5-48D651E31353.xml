@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34AFF12C-0ECB-AD4A-43B5-48D651E31353" containerWithKeyObject="43706441-FCB5-9305-106C-E881CD27B698" localFKIndex="5284E4F7-0D21-F27B-F52F-8088C9DD2E62" name="DetalleFactura_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>79297FC6-C54C-852C-1C5A-35635CDA3009</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<referredTableLongName>Parte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0524135-5594-DC12-C961-068B70C0051C</referredTableID>
+<keyObject>4DFAD89A-504B-5294-C31E-ABE8E072DCF3</keyObject>
+<referredKeyID>4DFAD89A-504B-5294-C31E-ABE8E072DCF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idParte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

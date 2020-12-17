@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA61CC1B-A87C-374E-74AB-DEA7761F9B63" name="Vehiculo_Color">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>A1CDFBF9-14B0-D047-300D-87A5BB8FC9D9</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Color_idColor" id="F41894B0-B23A-4540-5580-6F63EF8AF62F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>6A6E4800-90DC-11F9-FD3E-F85DF1D3C751</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181A12C1-F007-7EF7-8AE6-6FC5CA9B2EB4" referredColumn="216B3590-C8D6-9364-2778-0438A2D80888"/>
+</associations>
+</Column>
+<Column name="Vehiculo_idVehiculo" id="3AADCD2A-CE33-AE38-4BF2-D36487BE0C6C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>00773C70-5044-0833-3B3B-E6B3B9CD1A18</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8800D1A6-BE42-7741-DC8D-EBC6120BB7A7" referredColumn="173A3465-89C1-EFD1-A86B-91A354EF10CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71B7BC11-6BCF-CC0F-5EC2-7C13F0391527" name="Vehiculo_Color_Color_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>F34FDAF9-C36E-DBA9-5F20-D89BAAB8CDC8</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F41894B0-B23A-4540-5580-6F63EF8AF62F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98E42FA5-7C8C-DAD9-7C6C-2B265E5515FB" name="Vehiculo_Color_Vehiculo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>A654AA93-6350-A1C3-E8A9-891AB71A8138</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AADCD2A-CE33-AE38-4BF2-D36487BE0C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

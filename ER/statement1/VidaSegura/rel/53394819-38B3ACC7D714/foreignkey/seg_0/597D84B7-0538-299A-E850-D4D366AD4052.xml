@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="597D84B7-0538-299A-E850-D4D366AD4052" containerWithKeyObject="C2B6BAC5-6BBA-18B9-0CFF-17D9E838D716" localFKIndex="81D911E3-ABE6-6A9A-C413-97A2F89E10CE" name="PolizaDeSeguro_Papeleria_Papeleria_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>D27E71FD-AD95-671B-9DF3-07F6C7ED79BE</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<referredTableLongName>Papeleria</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1CE9F21F-120F-F16A-9E93-F47BB43E7C08</referredTableID>
+<keyObject>E32A135F-234C-D32C-358C-3592A1E263EE</keyObject>
+<referredKeyID>E32A135F-234C-D32C-358C-3592A1E263EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPapeleria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="243A75DC-5A71-E0D4-C83C-427327DBC742" name="Boleto_Restriccion">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>5DA10D9D-2F37-8D44-E1FE-554D4E22F02B</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Boleto_idBoleto" id="2D2F857F-DCDB-146E-CD1A-D8250ED91CEA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>0C3EB7D9-28E1-0CA5-525B-939792E81ED3</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5424B2E5-A9BB-954E-C429-7040EE97AD66" referredColumn="13FAA13C-BACD-05D7-EBFF-4E74EA98D4D0"/>
+</associations>
+</Column>
+<Column name="Restriccion_idRestriccion" id="0A925A40-DD9E-C508-B5EB-371A36C8C501">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>E6DF3FA9-EBB5-54A8-8D1D-E8514879ACFA</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8CC0118-16BB-0AC7-C626-EBC438314081" referredColumn="76384277-B110-33FE-3A00-91EC56FA75A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CAA147E-5BA2-8738-5822-F5886B26A77E" name="Boleto_Restriccion_Boleto_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>8F1D15FA-7D20-8626-B85F-B98E8C81DC99</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D2F857F-DCDB-146E-CD1A-D8250ED91CEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="362C2491-2494-72CC-B3DE-847927D20434" name="Boleto_Restriccion_Restriccion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>7A393010-015A-A640-67C5-E412D3DE6034</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A925A40-DD9E-C508-B5EB-371A36C8C501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

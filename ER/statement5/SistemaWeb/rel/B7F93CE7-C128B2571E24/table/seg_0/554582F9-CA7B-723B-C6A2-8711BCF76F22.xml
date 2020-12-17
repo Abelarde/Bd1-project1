@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="554582F9-CA7B-723B-C6A2-8711BCF76F22" name="DetalleClienteReclamo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>2B0BEF0D-4CF4-4B42-BEC9-CEB4D9798C8B</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ClienteReclamo_idClienteReclamo" id="FD26CB64-7C1F-5274-DAEF-2C609965460F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>060E9E6C-AA23-9EEE-4483-5721F242DACC</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32085BD7-9FC2-DFFE-35FF-F59C26412C7A" referredColumn="9B87A78C-7EB6-180B-249A-E9A103FDC470"/>
+</associations>
+</Column>
+<Column name="Parte_idParte" id="0017F02C-C128-EF33-B04D-89CFCDD309DE">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>EB7722CB-89FA-A249-BDF1-72EF7CB0B644</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="837764F4-D5FA-CFA4-AD2C-5D99CCF50D2D" referredColumn="CB3B13BA-4970-A2C9-C0C0-F7CA9D0EBF55"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="F8267FAB-B1D3-7278-32AD-3A762495F53F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>E371F11B-EB8D-49DF-C35A-60F39644044F</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A45F2C9-96E4-8520-FB48-CC432C44C77C" referredColumn="3BAFF0D4-6491-B06D-DB53-5F5032204AF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0755F7A9-1A25-1238-2AAF-FEB56500E318" name="DetalleClienteReclamo_ClienteReclamo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>D5B5B6D0-5961-0E12-F354-CCFE362AADB3</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD26CB64-7C1F-5274-DAEF-2C609965460F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2B34D0-DDB1-556E-1F78-3FBA83D8937C" name="DetalleClienteReclamo_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>C4506122-2BD5-1992-2907-F6ED70EEFD1D</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0017F02C-C128-EF33-B04D-89CFCDD309DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B074654A-A5FD-814B-8142-EA31C403EC41" name="DetalleClienteReclamo_Empleado_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>1685E61C-3688-72F8-E08A-E51914D4BD8D</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8267FAB-B1D3-7278-32AD-3A762495F53F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BE09716-9DD3-7B31-C1A4-EBD9EAFE24CD" name="Funcion">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>3E01C413-0870-36C2-903F-C23D0181E534</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFuncion" id="CF122297-5094-B666-30FA-45457C949733">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>91C177A7-D2AA-71D1-5FFE-2372FCD6633F</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="55375F6B-669B-EBD9-D8BC-11803FAF4FE8">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>15330086-3B50-2E8A-2971-2C49FD894B70</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_idDepartamento" id="A8367EA4-F25A-A204-E7D3-B77487B68164">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>D0BAF4CE-7F18-56E5-3D1D-F14AAA5CACD7</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A5C0574-665B-2124-144C-00872C283CF8" referredColumn="86869329-5B1D-1C77-744E-7EC841E29547"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62B34A96-5F0E-5A1A-B793-7E570F43C474" name="Funcion_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>6B954FDF-1356-6D63-C67C-52877C6B02AB</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF122297-5094-B666-30FA-45457C949733"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="333D2A62-6F99-39C9-786E-50F3FEF672EA" name="Funcion_Departamento_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>77B355B9-D50C-019A-AC20-0BC5D228AF03</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8367EA4-F25A-A204-E7D3-B77487B68164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

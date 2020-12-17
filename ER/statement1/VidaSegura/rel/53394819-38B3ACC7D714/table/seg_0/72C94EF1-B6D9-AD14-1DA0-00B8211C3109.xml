@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72C94EF1-B6D9-AD14-1DA0-00B8211C3109" name="Contrato">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>4A9D77EC-46D6-32D0-4971-A73A06C0BF4A</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idContrato" id="E3EDF85C-890D-86A7-7538-5FEBF01250F1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>0C0F15EB-E631-67B6-B887-300D39345C10</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="9AF31FDA-B52B-25D4-697F-0FC562BC46E4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>57B12F2E-AF8A-3815-8576-D81CEA7A2E27</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F081918-3D24-805A-A576-F9A88E2F8D9E" referredColumn="538016BD-F591-A435-1602-31AA40FE18D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F7839DF-F2ED-06B9-47BE-D54E3E993898" name="Contrato_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>70ECF522-919B-06FA-53E3-0ECE864D9C11</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EDF85C-890D-86A7-7538-5FEBF01250F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15D2F464-6C63-9DA4-F68A-2D7230FB4E56" name="Contrato__IDX">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CBAC208A-E4BA-7258-ACCE-F7679C662F33</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9AF31FDA-B52B-25D4-697F-0FC562BC46E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C788639-4C6C-72A6-575D-2375C941234D" name="Contrato_Cliente_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>CBAC208A-E4BA-7258-ACCE-F7679C662F33</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF31FDA-B52B-25D4-697F-0FC562BC46E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

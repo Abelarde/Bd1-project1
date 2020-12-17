@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E816163-AB9B-DC22-1913-8ACC50B75F63" name="DetalleReclamo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>7FEAC6CB-5FD1-2F60-4F5A-AED1032855FF</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reclamo_idReclamo" id="E41B90AC-5DC2-96D7-8E42-B945BA6B8DF1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>377E5C89-1BEE-ADF2-9E8D-68D9383FD12A</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="250978BC-440F-96B4-5A60-4FD40086F5AF" referredColumn="02FDD9F5-B6BE-4D74-F72A-804EE55C2823"/>
+</associations>
+</Column>
+<Column name="Parte_idParte" id="C4EEDE55-72CC-615C-4404-BB42A5E4DBDD">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>AA8AB370-3C0D-10E8-CB4A-F88E8E06DEAC</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D6507AD-8E8F-07E7-F0AA-4CF1789BAB72" referredColumn="CB3B13BA-4970-A2C9-C0C0-F7CA9D0EBF55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B923B10-8DD4-48DA-05AE-5887974CA405" name="DetalleReclamo_Reclamo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>6209F018-8AB2-8654-3ED7-4CD36EAC8A42</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41B90AC-5DC2-96D7-8E42-B945BA6B8DF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B9A23CD-5663-3802-C2CC-A291E9829E34" name="DetalleReclamo_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>8DAD6BBF-5812-B16E-58E4-9F8B45684074</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4EEDE55-72CC-615C-4404-BB42A5E4DBDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EC32B8C-66CE-FD27-D465-CC11A57EA6BC" name="Sucursal_Empleado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>DD548AF6-D684-0652-BDD1-0B3E5CC43936</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sucursal_idSucursal" id="720144B3-E404-80D2-E9A9-1A41EC8A4141">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>397DBF4E-FBD3-432A-5B8C-CF25BCFFD26B</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA170B85-3D11-76CC-7B5B-4C6295A2680F" referredColumn="B29FD44C-A822-F210-E2A7-0323434D29F6"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="237A1095-D314-27E9-0069-D4F9AF66D021">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>E0A03092-A95A-570D-A582-D9D5E994F4A7</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF97793F-FEE1-3A0F-E8AE-A7A0A5021E50" referredColumn="13F69C54-7E8D-B5BA-EF99-8E323C517DE1"/>
+</associations>
+</Column>
+<Column name="fecha" id="2F2177A2-904B-2106-E22F-7BE0D0EC27C3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>710A926F-8C17-1741-7C2C-F3E652165594</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6167DA32-3079-1789-69AC-2D5240EAE46D" name="Sucursal_Empleado_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>E6F2571F-7CAB-58B2-8E6E-9B8379E2DD0F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237A1095-D314-27E9-0069-D4F9AF66D021"/>
+<colUsage columnID="720144B3-E404-80D2-E9A9-1A41EC8A4141"/>
+<colUsage columnID="2F2177A2-904B-2106-E22F-7BE0D0EC27C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A47D24D-F07D-7A09-765E-5B7B420827CB" name="Sucursal_Empleado_Sucursal_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>E020C3E9-44C5-FD8B-77E1-BCFFD90693C9</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="720144B3-E404-80D2-E9A9-1A41EC8A4141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E1329EC-36EF-A8CB-E2F5-74311DFDA29D" name="Sucursal_Empleado_Empleado_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>07B226E9-9B13-3624-C34D-F4D8F040DE98</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237A1095-D314-27E9-0069-D4F9AF66D021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

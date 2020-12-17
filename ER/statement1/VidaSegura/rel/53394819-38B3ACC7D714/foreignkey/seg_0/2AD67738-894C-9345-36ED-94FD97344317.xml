@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2AD67738-894C-9345-36ED-94FD97344317" containerWithKeyObject="7F8B294E-9F34-0CB4-D250-A2ED46F18568" localFKIndex="83D1E984-FE0A-996F-33AB-9EFEC1166817" name="RegistroPago_Personal_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>4C6AAD23-2AAE-5929-699C-1F5D7AF968A3</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<referredTableLongName>Personal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEC51BA3-16FC-DDC5-E2A5-D32A369CB855</referredTableID>
+<keyObject>1FF98EA7-8D21-DE55-C9B2-DF7BA9F6B6DE</keyObject>
+<referredKeyID>1FF98EA7-8D21-DE55-C9B2-DF7BA9F6B6DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPersonal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

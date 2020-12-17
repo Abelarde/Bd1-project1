@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E444FC5-9584-F921-EEE2-59B7DE318763" name="Producto_LineaEnsamblaje">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>7048DEDD-501B-262C-6F7B-3E077C0DE0D9</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_idProducto" id="37EEF9F7-BFD0-2C28-5827-9694D69DA7D8">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>91A3B7A6-F214-6C86-0069-24BD0BAC9078</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F1A0746-957A-4F68-D144-07D4047BF936" referredColumn="DD5B2D6F-9713-21DC-A714-4CD7904DA862"/>
+</associations>
+</Column>
+<Column name="LineaEnsamblaje_idLineaEnsamblaje" id="9C322FB9-CFD1-CBD0-DDB7-1704792AA4CC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>6F876616-FB2A-4415-9B1A-B4480B87C4F5</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4470AAD-16A8-B755-4605-DCFB9A662E39" referredColumn="4D1F02B7-28FD-16DC-6A5D-16FEECBF54FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7819F2E-DFAA-9D1B-0029-2DF2DA5B5E71" name="Producto_LineaEnsamblaje_Producto_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>DAD256F1-947B-EF8C-42F5-134FDF64D9C4</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37EEF9F7-BFD0-2C28-5827-9694D69DA7D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BD6CCB1-8E0D-5DD7-DFC7-EF1FFBE7F882" name="Producto_LineaEnsamblaje_LineaEnsamblaje_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>591FDDE6-CF12-0ED7-25C5-9F31B4BD1972</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C322FB9-CFD1-CBD0-DDB7-1704792AA4CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

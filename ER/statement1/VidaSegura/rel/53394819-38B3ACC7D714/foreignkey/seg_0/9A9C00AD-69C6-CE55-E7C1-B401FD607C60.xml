@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A9C00AD-69C6-CE55-E7C1-B401FD607C60" containerWithKeyObject="DE804652-9A12-01B8-2CBB-7708D1D98395" localFKIndex="482B9E95-EECD-30CC-92C9-701B492E04C2" name="PolizaDeSeguro_PeriodoDePago_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>BA8B5DF5-B45D-8C18-F0B6-FF179991B576</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<referredTableLongName>PeriodoDePago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89DAAEFB-1325-78E1-B10D-84DA30B8A185</referredTableID>
+<keyObject>6B661DAA-73E9-30AC-461C-667F0B6CDC47</keyObject>
+<referredKeyID>6B661DAA-73E9-30AC-461C-667F0B6CDC47</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPeriodoDePago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

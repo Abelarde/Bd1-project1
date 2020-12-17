@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6374C03A-2A77-14EB-0F8B-31053E1B4C82" name="Parte_Proveedor">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>5B079003-67DB-ED95-8F9D-0A5CAD0E2904</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Parte_idParte" id="7260E6A0-1311-9A09-2E8E-7F170E92DEE4">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>B211B234-FA1B-E92A-26F1-AC0C2FED1056</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED3833DE-F33E-4F30-CED8-C93A17CD15A7" referredColumn="CB3B13BA-4970-A2C9-C0C0-F7CA9D0EBF55"/>
+</associations>
+</Column>
+<Column name="Proveedor_idProveedor" id="2EDF6E4C-A1C1-F455-0977-DC05C3EC166A">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>59A0E5BC-0F14-6067-CB90-727190098F46</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F66E487-138C-1512-8D58-86666DB495E2" referredColumn="6DB51913-79D1-676D-C0C1-1BA8079C564E"/>
+</associations>
+</Column>
+<Column name="garantia" id="2C2D689F-6AEB-3D09-09CA-F79FDFBBF716">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>CC0CF195-B077-EECB-93A0-26CAD408A3AB</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49865B95-FD0A-F99C-78FF-E94BF687A854" name="Parte_Proveedor_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>DF0C6C09-7689-580A-D8E1-00B246170485</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7260E6A0-1311-9A09-2E8E-7F170E92DEE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B22CD04-1B55-1C9D-63C5-72FB4D098B9A" name="Parte_Proveedor_Proveedor_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>19D479C7-2946-D040-16BF-600C97AAE18C</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDF6E4C-A1C1-F455-0977-DC05C3EC166A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

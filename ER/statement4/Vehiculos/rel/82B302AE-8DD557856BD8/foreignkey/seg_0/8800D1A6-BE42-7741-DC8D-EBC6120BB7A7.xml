@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8800D1A6-BE42-7741-DC8D-EBC6120BB7A7" containerWithKeyObject="DA61CC1B-A87C-374E-74AB-DEA7761F9B63" localFKIndex="98E42FA5-7C8C-DAD9-7C6C-2B265E5515FB" name="Vehiculo_Color_Vehiculo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>A654AA93-6350-A1C3-E8A9-891AB71A8138</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<referredTableLongName>Vehiculo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33EEC16D-1E9A-7024-C2CA-28E69176D064</referredTableID>
+<keyObject>12A7AA24-B27F-5EA3-990B-CDC311BB97D1</keyObject>
+<referredKeyID>12A7AA24-B27F-5EA3-990B-CDC311BB97D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idVehiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

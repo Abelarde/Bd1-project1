@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D4A846C-F103-9359-DEFB-9CA5CD354151" containerWithKeyObject="6D0BB9F1-D88C-B971-382C-9814A400F341" localFKIndex="069A43E0-D950-7195-D5A6-A82E0504F8FB" name="Boleto_Clase_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>1007B0C0-D6E3-71A6-C538-E7D35DFC2CD3</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<referredTableLongName>Clase</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1781141C-6AF0-CE91-7496-EECBDB395680</referredTableID>
+<keyObject>CAEF485A-BC2B-2B2A-C8A5-E55BA5E7EE6F</keyObject>
+<referredKeyID>CAEF485A-BC2B-2B2A-C8A5-E55BA5E7EE6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idClase</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

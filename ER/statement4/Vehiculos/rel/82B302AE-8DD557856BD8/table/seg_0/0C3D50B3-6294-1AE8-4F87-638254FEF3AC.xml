@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C3D50B3-6294-1AE8-4F87-638254FEF3AC" name="TarjetaCredito">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>37C9C165-5E29-9900-2A54-FD0F0069385C</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTarjetaCredito" id="C08E4B98-D79A-7142-D250-D818090E8470">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>4FB193E2-8175-3988-BC04-A68423D78265</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="71A87249-62BE-9778-563E-CCB86B95D8B1">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>63EFCF6B-3EE3-C4D5-641F-5862AC9A8214</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="387ED021-69E7-37AF-48A9-6D0FA48507C2">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>68597F58-0CB9-DC48-6677-A41434326F28</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FCC9378-483B-CB08-BDF7-3B48D380FFF7" referredColumn="BC8CBB83-90D7-8AE0-CC5A-B5C87B5B7533"/>
+</associations>
+</Column>
+<Column name="Banco_idBanco" id="63DF8B57-DBF2-7739-AA85-2BE40D703AE3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>5C054A24-D6CD-386C-FF23-6C0922226165</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8523196-58F4-A855-F74C-4547FDDFE8BA" referredColumn="52E43CE0-018D-0103-C304-81FDAA85F9DD"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="4C26A121-BA47-6231-CDF1-293927E90E43">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>89673A54-2E67-65D1-8FB2-72165EA113B0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCCAB03C-FF6D-4781-76F8-D0591AAA9762" referredColumn="13F69C54-7E8D-B5BA-EF99-8E323C517DE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFE53055-89D7-39D7-5C40-2ABE3E132252" name="TarjetaCredito_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>0DFCA813-9907-4CC3-7D2A-3E390737D0C0</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C08E4B98-D79A-7142-D250-D818090E8470"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C4D1D1F-301F-B8DC-55F3-09413121F720" name="TarjetaCredito_Cliente_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>84A66651-F7A8-BFDB-6FF4-7A9068FE3A6E</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="387ED021-69E7-37AF-48A9-6D0FA48507C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE622711-9DB8-52DC-5350-0BDA59882A02" name="TarjetaCredito_Banco_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>14FA30DE-D4B6-DC5E-9A49-3C4002F8472F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DF8B57-DBF2-7739-AA85-2BE40D703AE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2776C42F-4E02-0374-80E2-0B41BCA3604F" name="TarjetaCredito_Empleado_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:05:29 UTC</createdTime>
+<generatorID>C0F60145-0268-28C1-3A57-C6B4D648E599</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C26A121-BA47-6231-CDF1-293927E90E43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

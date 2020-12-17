@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70617D0E-03B2-DC99-AF71-746B63F7F3C0" containerWithKeyObject="9865F911-F7D9-8F3E-1124-151D0E6CA8E0" localFKIndex="E59F7F6F-8E67-AA80-D57D-CBB261A1B4F6" name="HistorialLlamada_Personal_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>809CA77E-E31E-7BD4-0C71-5303F27A405D</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<referredTableLongName>Personal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEC51BA3-16FC-DDC5-E2A5-D32A369CB855</referredTableID>
+<keyObject>1FF98EA7-8D21-DE55-C9B2-DF7BA9F6B6DE</keyObject>
+<referredKeyID>1FF98EA7-8D21-DE55-C9B2-DF7BA9F6B6DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPersonal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

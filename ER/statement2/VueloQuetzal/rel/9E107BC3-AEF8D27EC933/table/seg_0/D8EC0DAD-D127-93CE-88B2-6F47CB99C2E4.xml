@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8EC0DAD-D127-93CE-88B2-6F47CB99C2E4" name="Boleto_Vuelo">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>13733252-B0D4-E229-BC7B-72AD76DFC305</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Boleto_idBoleto" id="3D614429-A14F-88CF-5B66-2F182667D269">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>17CEFE39-3541-88F6-6520-4457C0727366</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="507F06EA-BA4C-7A7A-B314-2EE47417C34E" referredColumn="13FAA13C-BACD-05D7-EBFF-4E74EA98D4D0"/>
+</associations>
+</Column>
+<Column name="Vuelo_idVuelo" id="91DA3EBD-9600-2E25-7E37-4BBF2A5FEEFE">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>AC13F7D6-0809-7D69-70B2-E73E15489DD3</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="588A903C-8AA8-4E9C-8386-8CA6D58E5331" referredColumn="4099C427-EB97-DCEE-81C2-1AC340FC139C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD534471-8828-4E62-4206-CC760AF33242" name="Boleto_Vuelo_Boleto_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>D4CFB526-654B-B844-0A64-E7C995234462</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D614429-A14F-88CF-5B66-2F182667D269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="319FCBE5-9C24-E6B9-F1BE-57D9C3FBB1C2" name="Boleto_Vuelo_Vuelo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>CE6F3F33-6B66-9AC3-0A8D-DE76B1E0A9EF</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91DA3EBD-9600-2E25-7E37-4BBF2A5FEEFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

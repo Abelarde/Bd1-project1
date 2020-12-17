@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F304CC1-1DC9-1909-7ED3-208DD591640D" name="Armado">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>4D744099-A7CF-3002-4D8A-DA98544C29C9</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Parte_idParte" id="70F10FE1-11E9-1C61-9BDF-46DEB57A904F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>3411D8F9-D9FE-F6DC-BE41-AEA4830495A6</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECCF6D54-E575-E959-1E41-BA1E31E05BCB" referredColumn="CB3B13BA-4970-A2C9-C0C0-F7CA9D0EBF55"/>
+</associations>
+</Column>
+<Column name="Etapa_idEtapa" id="D41E5149-8F87-BA9A-9026-AA97F0B014A2">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>6EF1D6F4-A95E-EE6C-5320-2C93303DC792</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD557DBC-54AF-6054-C582-CEFC66A32A87" referredColumn="7DF66D11-E2F3-34EA-A619-11EC5772C383"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="724EFC35-C340-FE64-6AFF-14C1697DC58D" name="Armado_Etapa_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>8FAE6921-2CFE-5146-C749-75E401DC3952</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D41E5149-8F87-BA9A-9026-AA97F0B014A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACB981F5-DECB-8FA8-72BB-C802C49925A1" name="Armado_Parte_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>624A9CF4-B1AD-BF98-115A-9D5E866B00CC</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F10FE1-11E9-1C61-9BDF-46DEB57A904F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

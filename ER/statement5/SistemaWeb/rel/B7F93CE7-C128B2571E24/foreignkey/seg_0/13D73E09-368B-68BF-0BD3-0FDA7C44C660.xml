@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13D73E09-368B-68BF-0BD3-0FDA7C44C660" containerWithKeyObject="F44E0E20-6C9A-672A-3956-DDD416EEA459" localFKIndex="1D0E4359-5687-9652-7F40-769050BBB21E" name="Etapa_Estado_Etapa_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>F720CB75-B72C-1BBF-A972-C23EDCBBDC81</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<referredTableLongName>Etapa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBE5C2FF-97ED-5970-1D5B-88CE3C39D395</referredTableID>
+<keyObject>36E9FCE1-48AA-44BF-42BF-76D561A0C745</keyObject>
+<referredKeyID>36E9FCE1-48AA-44BF-42BF-76D561A0C745</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEtapa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9865F911-F7D9-8F3E-1124-151D0E6CA8E0" name="HistorialLlamada">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>83541E5F-E114-5DD1-C59C-481B4C7D97E0</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRegistroLlamada" id="B6C52AE7-CE15-8202-A431-DCDBFCAD8917">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>D2B036F0-4BFB-0D4B-1B28-B8BF27AAFDCA</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHora" id="A6EA16FE-5F4E-73A3-E3C3-2F05FD06B202">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>24BC93A2-5D5F-C73E-57AE-7B72D67E1D23</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="723CF39A-9B71-9DEF-FF1B-F318FC9C03BC">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>B2A84AB4-377C-2928-51C0-074A4A078AAF</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="25118F28-5DDA-61C7-88C2-6881B8969C9A">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>9C03852A-BC66-8B95-C60D-8857CEF670AD</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Personal_idPersonal" id="782B2864-CCAF-C103-19EA-320A26F37770">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>AA23C1B0-1E95-9890-A837-FC8E50405530</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70617D0E-03B2-DC99-AF71-746B63F7F3C0" referredColumn="A98B0B82-C6D6-C01C-07E7-C9113DA6A4E1"/>
+</associations>
+</Column>
+<Column name="Cliente_idCliente" id="2B088402-C183-D002-8F84-AE8353E38307">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>FB4F8DF4-9478-44C4-7277-EDB2F0C971DB</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5258570F-209D-7813-D2A6-0C953EBE39B7" referredColumn="538016BD-F591-A435-1602-31AA40FE18D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECE1FDDF-73AD-66E2-24F2-F5EBBDC76091" name="HistorialLlamada_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>3FFCD9EE-1310-99C6-D456-705F88861FA4</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C52AE7-CE15-8202-A431-DCDBFCAD8917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E59F7F6F-8E67-AA80-D57D-CBB261A1B4F6" name="HistorialLlamada_Personal_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>809CA77E-E31E-7BD4-0C71-5303F27A405D</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="782B2864-CCAF-C103-19EA-320A26F37770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0FCD73F-0018-7686-EA7A-3E34BF92411D" name="HistorialLlamada_Cliente_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:06:27 UTC</createdTime>
+<generatorID>78888F56-B3EA-21A2-F077-96AAF141E653</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B088402-C183-D002-8F84-AE8353E38307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

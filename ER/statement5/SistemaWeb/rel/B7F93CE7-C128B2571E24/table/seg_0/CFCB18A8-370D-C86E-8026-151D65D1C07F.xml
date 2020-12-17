@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFCB18A8-370D-C86E-8026-151D65D1C07F" name="Compra">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>5A8536D7-5D1C-AF17-2FA2-3AC01A9AD0E1</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCompra" id="0DDEE015-BECD-42D1-A536-2698E1DF8D73">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>63EEBC04-BE0D-0668-1816-D56A1CCE8AB9</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_idProveedor" id="54E1C9F1-602B-BAEA-0CA4-3C137C7F9270">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>CB4924F5-89CB-3D71-79CB-89B902C1613A</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54F18DDE-E589-840B-B933-9F2CB6771A1D" referredColumn="6DB51913-79D1-676D-C0C1-1BA8079C564E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD414F14-1308-DF40-01CB-0A2AFDA37930" name="Compra_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>4D027597-05AC-8E62-EFA9-E0270362F4CA</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DDEE015-BECD-42D1-A536-2698E1DF8D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF652AD4-4B16-1DEA-8E8A-84C98B0D10E1" name="Compra_Proveedor_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:04:14 UTC</createdTime>
+<generatorID>A58F4463-9A12-21C7-3331-69B74F183630</generatorID>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54E1C9F1-602B-BAEA-0CA4-3C137C7F9270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

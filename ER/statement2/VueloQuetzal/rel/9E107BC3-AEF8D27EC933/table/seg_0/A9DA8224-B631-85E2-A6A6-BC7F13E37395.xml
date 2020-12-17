@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9DA8224-B631-85E2-A6A6-BC7F13E37395" name="Matenimiento">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>196BB8D6-DE53-60DC-7F6A-5538DDCC3749</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMantenimiento" id="F968B606-D807-52CD-B28F-946F30E3CC2E">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>D3AC2EB8-12F7-84EB-9D5E-DC99D7AC3E7B</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoMantenimiento_idTipoMantenimiento" id="BE45D2FE-E249-8DE3-FCE5-21F908C3A68B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>84B592CF-F21A-BA2E-07E8-2A7781AB847A</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5BF8AB0-7D47-A4CD-F322-CD1DFFAA9E2A" referredColumn="264A72BE-FE06-45E2-5D1F-449169CBC371"/>
+</associations>
+</Column>
+<Column name="fecha" id="409BCE25-EE1F-2C2C-BF38-F78A003418EB">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>227A64F7-AE0A-0940-7557-6B42870328FB</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="E795E5D9-DEA2-080C-B0E6-8889A3AF52B5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>E437DAC7-F4D9-42CB-836B-41F06D9EF369</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inconvenientes" id="F555451A-CEE2-5647-FD3D-0A5BCCE429E3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>BEB11B3F-3B42-F503-DC2F-E26B395BE969</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avion_idAvion" id="29CBCC41-D88B-8122-9B70-3337B5776DCD">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>AACBF378-9F5D-0AC2-F92D-CF009A1A88B3</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32C3A29A-2B76-AF81-EF28-3E180F8D4AFE" referredColumn="C8276B06-770A-84FC-F31B-FAC74132FBD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE506A19-BFB9-59DB-B7E4-91D3F61C40EC" name="Matenimiento_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>56AEE83F-E7A3-EFAC-3947-756EB05A6286</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F968B606-D807-52CD-B28F-946F30E3CC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3735845D-52EE-76B1-7A23-EFEC88C63ACF" name="Matenimiento_TipoMantenimiento_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>691AA8A9-6893-63FC-6CD9-FCCE95AB65C9</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE45D2FE-E249-8DE3-FCE5-21F908C3A68B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2A77047-4974-72C9-5A2D-5F8637DB8D8F" name="Matenimiento_Avion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>9A2503CA-4B66-9F6D-DFF9-9A31CF6AB779</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29CBCC41-D88B-8122-9B70-3337B5776DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

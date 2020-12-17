@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32C3A29A-2B76-AF81-EF28-3E180F8D4AFE" containerWithKeyObject="A9DA8224-B631-85E2-A6A6-BC7F13E37395" localFKIndex="D2A77047-4974-72C9-5A2D-5F8637DB8D8F" name="Matenimiento_Avion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 07:09:16 UTC</createdTime>
+<generatorID>9A2503CA-4B66-9F6D-DFF9-9A31CF6AB779</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<referredTableLongName>Avion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B99C4F5-75D3-B59E-3EC6-1ED14EE9BAE0</referredTableID>
+<keyObject>78CE6BC6-D7FE-E5CD-F8CE-6B8C8BCD648E</keyObject>
+<referredKeyID>78CE6BC6-D7FE-E5CD-F8CE-6B8C8BCD648E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAvion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
