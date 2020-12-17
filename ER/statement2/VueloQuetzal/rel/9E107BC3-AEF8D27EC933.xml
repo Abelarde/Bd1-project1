@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" mainViewID="D537A111-C1A5-C8A6-B89C-B4396767E802">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 20:00:33 UTC</createdTime>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

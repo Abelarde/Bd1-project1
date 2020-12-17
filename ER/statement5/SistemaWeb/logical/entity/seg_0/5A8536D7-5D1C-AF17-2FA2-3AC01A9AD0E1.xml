@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A8536D7-5D1C-AF17-2FA2-3AC01A9AD0E1" name="Factura">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:52:13 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFactura" id="63EEBC04-BE0D-0668-1816-D56A1CCE8AB9">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:52:20 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D027597-05AC-8E62-EFA9-E0270362F4CA" name="Factura PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:52:27 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63EEBC04-BE0D-0668-1816-D56A1CCE8AB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="600FF201-BA84-7D2E-1C24-B0272B773967" name="Departamento">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 22:03:22 UTC</createdTime>
+<ownerDesignName>Guatemala</ownerDesignName>
+<engineerTo>
+<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDepartamento" id="79424875-B8A2-C78B-DBA9-59D1181C5235">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 22:03:29 UTC</createdTime>
+<ownerDesignName>Guatemala</ownerDesignName>
+<engineerTo>
+<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6B6052FA-1AD5-D7C7-0140-C482E78B42E0">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 22:03:40 UTC</createdTime>
+<ownerDesignName>Guatemala</ownerDesignName>
+<engineerTo>
+<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D557F88A-9813-F7FE-C9A3-184BE6D053B7" name="Departamento PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 22:03:38 UTC</createdTime>
+<ownerDesignName>Guatemala</ownerDesignName>
+<engineerTo>
+<item key="E2FCA397-1D95-CA72-DB53-E6BE4AC2DE43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79424875-B8A2-C78B-DBA9-59D1181C5235</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

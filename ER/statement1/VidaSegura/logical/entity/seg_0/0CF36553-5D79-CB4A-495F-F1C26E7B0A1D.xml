@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CF36553-5D79-CB4A-495F-F1C26E7B0A1D" name="RegistroPago">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:00:06 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRegistroPago" id="B70FF3CA-28BA-FB42-C52E-D4CCF42BDA6C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:00:13 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="800CFFCE-285B-43EF-02EE-81B0478D5673">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:00:49 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mora" id="0E7AC9D8-7498-9C11-D9AC-F95BD87F0EB5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:02:56 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDePago" id="AA0F1280-E547-E9DC-DEFD-ABE7FDCEC359">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:04:29 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="EF50DBB9-C434-1823-EF3B-426373294147">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:51:50 UTC</createdTime>
+<generatorID>04923E2D-20AC-602A-E498-E021145AA0C2</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<referedAttribute>5E050156-13FE-543E-C74E-B9D93C546514</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPersonal" id="C80FEEBA-4FB7-027F-91B9-E4038559D000">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:52:10 UTC</createdTime>
+<generatorID>4C6AAD23-2AAE-5929-699C-1F5D7AF968A3</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<referedAttribute>2E4ED905-F3A3-58E3-3D2C-E53E399764A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92AEE573-0436-7420-3F00-01BC645D0996" name="RegistroPago PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:00:24 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B70FF3CA-28BA-FB42-C52E-D4CCF42BDA6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

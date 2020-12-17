@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VueloQuetzal" id="45845EA6-DEFB-DAC3-3F45-865964330CF3" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 20:00:33 UTC</createdTime>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>45845EA6-DEFB-DAC3-3F45-865964330CF3</designId>
+</OSDM_Design>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5531B728-CB64-EDE8-E3DB-51C497B580EA" name="Avion_Clase">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 20:07:57 UTC</createdTime>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="asientos" id="06C6208F-7827-3586-FF95-F39E52C19AFB">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 20:08:14 UTC</createdTime>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAvion" id="0217B436-BCAB-6A23-8470-AC5CEEF9B2DF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-16 23:05:08 UTC</createdTime>
+<generatorID>68B232A2-2FCE-ADCB-E678-54375037AF96</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<referedAttribute>A6625682-E17A-0551-AB7D-6FD8D35F415E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idClase" id="12C013D6-7EEC-0FEC-9BA4-C51AD1BCAF28">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-16 23:05:12 UTC</createdTime>
+<generatorID>5F5A80BE-57D2-5456-85DD-30BCF52A56AB</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<referedAttribute>3182C436-995A-CB28-398B-5D02D7809A9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

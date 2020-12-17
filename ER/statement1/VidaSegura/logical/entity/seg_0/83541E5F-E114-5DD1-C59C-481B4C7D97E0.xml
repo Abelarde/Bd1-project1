@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83541E5F-E114-5DD1-C59C-481B4C7D97E0" name="HistorialLlamada">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 18:24:39 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRegistroLlamada" id="D2B036F0-4BFB-0D4B-1B28-B8BF27AAFDCA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 18:24:50 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaHora" id="24BC93A2-5D5F-C73E-57AE-7B72D67E1D23">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 18:26:14 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="B2A84AB4-377C-2928-51C0-074A4A078AAF">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 18:26:39 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="9C03852A-BC66-8B95-C60D-8857CEF670AD">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-16 19:24:10 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPersonal" id="AA23C1B0-1E95-9890-A837-FC8E50405530">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:27:09 UTC</createdTime>
+<generatorID>809CA77E-E31E-7BD4-0C71-5303F27A405D</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<referedAttribute>2E4ED905-F3A3-58E3-3D2C-E53E399764A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="FB4F8DF4-9478-44C4-7277-EDB2F0C971DB">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 19:28:23 UTC</createdTime>
+<generatorID>78888F56-B3EA-21A2-F077-96AAF141E653</generatorID>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<referedAttribute>5E050156-13FE-543E-C74E-B9D93C546514</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FFCD9EE-1310-99C6-D456-705F88861FA4" name="RegistroLlamada PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 18:25:04 UTC</createdTime>
+<ownerDesignName>VidaSegura</ownerDesignName>
+<engineerTo>
+<item key="53394819-08D2-5ECC-A1EB-38B3ACC7D714" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2B036F0-4BFB-0D4B-1B28-B8BF27AAFDCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

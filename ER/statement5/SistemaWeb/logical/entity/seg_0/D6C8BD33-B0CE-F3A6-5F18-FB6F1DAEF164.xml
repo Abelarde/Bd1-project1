@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6C8BD33-B0CE-F3A6-5F18-FB6F1DAEF164" name="MarcaProducto">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:35:41 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMarcaProducto" id="5297D00A-2163-9A35-ED05-BCA439C45D8C">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:35:49 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="31C8B41B-C300-9E00-E4D2-3A66EAC5ED89">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:35:57 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BA29D7A-CFBF-B879-F53A-3AEC39B2F33C" name="Marca PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:35:55 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5297D00A-2163-9A35-ED05-BCA439C45D8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

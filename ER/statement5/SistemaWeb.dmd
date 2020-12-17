@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SistemaWeb" id="6352C127-FDAB-D392-7B80-1C3E0E05D237" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-12 23:45:04 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6352C127-FDAB-D392-7B80-1C3E0E05D237</designId>
+</OSDM_Design>

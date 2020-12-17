@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A523189-C8C6-5C23-3BF9-9711B9CB7426" name="SoporteTecnico">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:57:39 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSoporteTecnico" id="D06D1766-CD39-7961-99C3-C243F6F23A4D">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:57:49 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaFecha" id="75DFF128-9441-058C-C3CA-35B5C25EBA4B">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:59:10 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FE26185-95DD-2477-BE84-B29E5D60D4B1" name="SoporteTecnico PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:57:58 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D06D1766-CD39-7961-99C3-C243F6F23A4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

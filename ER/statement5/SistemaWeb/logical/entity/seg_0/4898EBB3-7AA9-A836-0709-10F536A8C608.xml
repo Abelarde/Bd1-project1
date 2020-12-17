@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4898EBB3-7AA9-A836-0709-10F536A8C608" name="TipoParte">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:29:51 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTipoPartte" id="510BFC76-C6DE-C05A-1625-237C4721AD16">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:29:58 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3AB28D4A-B443-69D5-E26C-3E33FE5B293F">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:30:07 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE864238-896A-C987-4EEA-44D5CF443530" name="TipoParte PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:30:06 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>510BFC76-C6DE-C05A-1625-237C4721AD16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

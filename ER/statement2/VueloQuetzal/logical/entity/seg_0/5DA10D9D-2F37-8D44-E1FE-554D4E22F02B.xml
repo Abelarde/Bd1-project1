@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DA10D9D-2F37-8D44-E1FE-554D4E22F02B" name="Boleto_Restriccion">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 00:21:12 UTC</createdTime>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idBoleto" id="0C3EB7D9-28E1-0CA5-525B-939792E81ED3">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 00:21:30 UTC</createdTime>
+<generatorID>8F1D15FA-7D20-8626-B85F-B98E8C81DC99</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<referedAttribute>0B808581-0303-92E8-EFA1-7F2FDBD48C5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRestriccion" id="E6DF3FA9-EBB5-54A8-8D1D-E8514879ACFA">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-17 00:21:44 UTC</createdTime>
+<generatorID>7A393010-015A-A640-67C5-E412D3DE6034</generatorID>
+<ownerDesignName>VueloQuetzal</ownerDesignName>
+<engineerTo>
+<item key="9E107BC3-0C4C-E676-9D52-AEF8D27EC933" value="true"/>
+</engineerTo>
+<referedAttribute>8BAA97EC-9C84-8A61-8395-AC74188E0C3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

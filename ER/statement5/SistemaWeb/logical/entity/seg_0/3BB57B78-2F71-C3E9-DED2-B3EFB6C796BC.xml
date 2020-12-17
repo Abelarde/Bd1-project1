@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BB57B78-2F71-C3E9-DED2-B3EFB6C796BC" name="Producto">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:33:31 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProducto" id="A376BDE0-A90F-3918-80D1-3970FA31D930">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:33:59 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="79A40988-92BC-AD37-90A8-DACBC0BD53B0">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:34:32 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaHoraTerminado" id="051B82ED-627E-4ED3-D1A9-719D675F352A">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:34:57 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C87B0F25-4D9E-6CB8-7093-7FFE0A31909D" name="Producto PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2020-12-13 19:34:05 UTC</createdTime>
+<ownerDesignName>SistemaWeb</ownerDesignName>
+<engineerTo>
+<item key="B7F93CE7-E585-B276-A831-C128B2571E24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A376BDE0-A90F-3918-80D1-3970FA31D930</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
